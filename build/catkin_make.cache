@@ -1,0 +1,2 @@
+chessbot
+-DCATKIN_DEVEL_PREFIX=/home/chess-bot/chess-bot-v2/devel -DCMAKE_INSTALL_PREFIX=/home/chess-bot/chess-bot-v2/install -G Unix Makefiles
