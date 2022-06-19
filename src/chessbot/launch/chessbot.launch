@@ -1,0 +1,4 @@
+<launch>
+    <node name='servernode' pkg='chessbot' type='service_server.py' output='screen' launch-prefix="xterm -e" />
+    <node name='clientnode' pkg='chessbot' type='service_client.py' output='screen' launch-prefix="xterm -e" />
+</launch>
